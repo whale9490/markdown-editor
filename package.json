@@ -1,0 +1,24 @@
+{
+  "name": "markdown-editor",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/codemirror": "^0.0.97",
+    "@types/lodash": "^4.14.158",
+    "@types/marked": "^1.1.0",
+    "codemirror": "^5.56.0",
+    "lodash": "^4.17.19",
+    "marked": "^1.1.1"
+  }
+}
