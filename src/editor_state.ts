@@ -60,7 +60,7 @@ function isIgnorableMove(lastCursorInfo: CursorInfo | null, currentCursorInfo: C
   const chDiff = currentCursorInfo.pos.ch - lastCursorInfo.pos.ch;
   if (chDiff < -1 || 1 < chDiff) return false;
 
-  if (_.isEqual(new Set(lastCursorInfo.types), new Set(currentCursorInfo.types))) return false;
+  if (!_.isEqual(new Set(lastCursorInfo.types), new Set(currentCursorInfo.types))) return false;
 
   return true;
 }
