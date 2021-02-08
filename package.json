@@ -30,6 +30,6 @@
         "@types/marked": "^1.1.0",
         "codemirror": "^5.56.0",
         "lodash": "^4.17.19",
-        "marked": "^1.1.1"
+        "marked": "^2.0.0"
     }
 }
